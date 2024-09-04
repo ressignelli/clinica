@@ -1,0 +1,108 @@
+body {
+  display: block;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: white;
+}
+#newEventModal {
+  display: none;
+  z-index: 20;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 5px;
+  width: 350px;
+  top: 100px;
+  left: calc(50% - 175px);
+  position: absolute;
+  font-family: sans-serif;
+}
+
+.cancelButton {
+  width: 100px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px gray;
+  border: none;
+  outline: none;
+  padding: 2px;
+  border-radius: 2px;
+  color: black;
+}
+
+button {
+  width: 60px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px white;
+  border: none;
+  outline: none;
+  padding: 3px;
+  border-radius: 3px;
+  color: black;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+}
+
+#header {
+  padding: 10px;
+  font-size: 26px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+    width: 770px;
+    justify-content: center;
+    align-items: center;    
+}
+img{
+  width: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px gray;
+  border: none;
+  outline: none;
+  padding: 2px;
+  border-radius: 2px;
+  color: black;    
+}
+img:hover {
+    background-color: #4169E1;
+    color: #4169E1;
+}
+
+#calendar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+td {
+  width: 50px;
+  padding: 10px;
+  height: 50px;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: white;
+  margin: 5px;
+  box-shadow: 0px 0px 3px #CBD4C2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15%;
+}
+
+tr {
+  width: 100%;
+  display: flex;
+  color: #247BA0;
+}
+#nome_mes{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #4682B4;
+}
+
